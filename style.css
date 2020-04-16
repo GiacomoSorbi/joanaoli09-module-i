@@ -443,7 +443,18 @@ nav a {
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
 }
-
+.fa-facebook-f {
+  cursor: pointer;
+  color: white;
+}
+.fa-instagram {
+  cursor: pointer;
+  color: white;
+}
+.fa-linkedin-in {
+  cursor: pointer;
+  color: white;
+}
 .rights {
   padding-top: 30px;
   justify-content: center;
