@@ -21,3 +21,15 @@ document.getElementById("show-modal").addEventListener("click", function() {
 function closeMe() {
   document.querySelector(".modal").style.display = "none";
 }
+
+document.querySelector("#open-form").addEventListener("submit", event => {
+  event.preventDefault();
+  toggleModal();
+  var formData = new FormData(document.querySelector("#open-form"));
+  console.log(
+    "Name:" + formData.get("name"),
+    "Email:" + formData.get("email"),
+    "Subject:" + formData.get("subject"),
+    "Message:" + formData.get("message")
+  );
+});

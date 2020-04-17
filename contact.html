@@ -14,6 +14,10 @@
       crossorigin="anonymous"
     ></script>
     <link href="./action_page.js" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
   </head>
   <body>
     <div class="wrap-container">
@@ -46,9 +50,8 @@
                 I'd love to chat with you about your upcoming project.
               </h1>
               <div class="intro-text">
-                Fill out the form bellow to get in touch. Either for a project
-                briefing, a budget information or to book a meeting to discuss
-                any ideas that you may have, you can contact me for any
+                Fill out the form bellow to get in touch. Either for a budget information or to book a meeting to discuss
+                any ideas that you might have, you can contact me for any
                 clarification you need. I'll get back to you in 2-3 days.
               </div>
               <div class="row open-form">
@@ -123,10 +126,10 @@
         </div>
         <h1>Ask away</h1>
         <form id="submit">
-          <input type="text" placeholder="Name" />
-          <input type="email" id="email" placeholder="Email" />
-          <input type="text" placeholder="Subject" />
-          <textarea placeholder="Message"></textarea>
+          <input type="text" placeholder="Name" name="name" />
+          <input type="email" id="email" placeholder="Email" name="email"/>
+          <input type="text" placeholder="Subject" name="subject" />
+          <textarea placeholder="Message" name="message"></textarea>
           <button class="submit">Submit</button>
         </form>
       </div>
