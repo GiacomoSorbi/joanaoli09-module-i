@@ -19,10 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-<<<<<<< HEAD
-=======
   width: 100%;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
   flex: 1;
 }
 
@@ -38,18 +35,6 @@ body {
   padding-bottom: 200px;
 }
 
-<<<<<<< HEAD
-.logo {
-  font-family: "Francois One", sans-serif;
-  letter-spacing: 3px;
-  padding-left: 80px;
-}
-
-.header {
-  height: 280px;
-  justify-content: space-between;
-}
-=======
 .header {
   height: 280px;
   justify-content: space-between;
@@ -66,19 +51,13 @@ body {
   font-size: 30px;
 }
 
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 /* ------- nav --------- */
 
 nav {
   height: 50px;
-<<<<<<< HEAD
-  flex-direction: row;
-  justify-content: space-between;
-=======
   justify-content: flex-end;
   flex-direction: row;
 
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
   padding: 10px 50px 0 0;
 }
 nav ul {
@@ -143,8 +122,6 @@ nav a {
   font-size: 20px;
 }
 
-<<<<<<< HEAD
-=======
 .viewportfolio-button {
   cursor: pointer;
   padding: 5px;
@@ -164,17 +141,12 @@ nav a {
   padding: 5px;
 }
 
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 .section-1 {
   justify-content: space-around;
 }
 
 .section-1b {
-<<<<<<< HEAD
-  height: 400px;
-=======
   height: 500px;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 /* ------- SECTION 2 --------- */
 
@@ -216,25 +188,17 @@ nav a {
   margin: 20px;
 }
 .first-line {
-<<<<<<< HEAD
-  align-items: center;
-=======
   justify-content: center;
 }
 .second-line {
   justify-content: center;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 
 /* ------- SECTION 3 --------- */
 
 .section-3 {
   background-color: hsla(7, 56%, 85%, 0.746);
-<<<<<<< HEAD
-  height: 500px;
-=======
   height: 475px;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
   width: 100%;
   align-items: center;
 }
@@ -285,16 +249,6 @@ nav a {
   padding: 0 80px;
 }
 
-<<<<<<< HEAD
-.button {
-  padding: 40px 0;
-  font-family: "Lato", sans-serif;
-  line-height: 1.8;
-  letter-spacing: 0.15em;
-  font-size: 13px;
-  text-align: center;
-}
-=======
 .moreinfo-button {
   cursor: pointer;
   padding: 5px;
@@ -314,28 +268,18 @@ nav a {
   padding: 5px;
 }
 
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 /* ------- SECTION 4 --------- */
 
 .section-4 {
   background-color: white;
-<<<<<<< HEAD
-  height: 500px;
-=======
   height: 450px;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 
 /* ------- SECTION 5 --------- */
 
 .section-5 {
-<<<<<<< HEAD
-  background-color: rgb(223, 236, 220);
-  height: 200px;
-=======
   background-color: rgba(247, 246, 244, 1);
   height: 250px;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
   justify-content: center;
 }
 
@@ -347,19 +291,11 @@ nav a {
 }
 
 .know-text {
-<<<<<<< HEAD
-  width: 300px;
-  font-family: "Lato", sans-serif;
-  padding: 55px 20px 0 0;
-  letter-spacing: 0.05em;
-  font-size: 14px;
-=======
   width: 330px;
   font-family: "Lato", sans-serif;
   padding: 55px 20px 0 0;
   letter-spacing: 0.05em;
   font-size: 15px;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
   line-height: 1.4;
 }
 
@@ -383,10 +319,6 @@ nav a {
 .know-more-button:hover {
   opacity: 0.6;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 /* ------- SECTION 6 --------- */
 
 .section-6 {
@@ -427,15 +359,11 @@ nav a {
   letter-spacing: 0.05em;
 }
 .inquire {
-<<<<<<< HEAD
-  justify-content: center;
-=======
   padding: 20px 0;
 }
 .inquire a {
   justify-content: center;
   align-items: center;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 .connect-button {
   font-family: "Lato", sans-serif;
@@ -443,22 +371,10 @@ nav a {
   text-align: center;
   letter-spacing: 0.15em;
   font-size: 13px;
-<<<<<<< HEAD
-  line-height: 1.4;
-=======
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
   text-decoration: none;
   cursor: pointer;
   background-color: rgb(48, 51, 54);
   padding: 10px 17px;
-<<<<<<< HEAD
-  justify-content: center;
-  align-content: center;
-  border-style: solid;
-  border-radius: inherit;
-}
-
-=======
   border-radius: inherit;
   justify-content: center;
 }
@@ -466,7 +382,6 @@ nav a {
 .connect-button:hover {
   opacity: 0.6;
 }
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 /* ------- SECTION 7 --------- */
 
 .section-7 {
@@ -527,9 +442,6 @@ nav a {
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
 }
-<<<<<<< HEAD
-
-=======
 .fa-facebook-f {
   cursor: pointer;
   color: white;
@@ -542,7 +454,6 @@ nav a {
   cursor: pointer;
   color: white;
 }
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 .rights {
   padding-top: 30px;
   justify-content: center;
@@ -556,8 +467,6 @@ nav a {
   line-height: 1.4;
 }
 
-<<<<<<< HEAD
-=======
 /* ---------media queries for the home page --------------- */
 
 @media screen and (max-width: 1100px) {
@@ -659,7 +568,6 @@ nav a {
   }
 }
 
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 /* ---------------- ABOUT PAGE---------------- */
 
 .header-container-2 {
@@ -668,10 +576,7 @@ nav a {
   background-color: rgba(221, 226, 220, 1);
   display: flex;
   padding-bottom: 100px;
-<<<<<<< HEAD
-=======
   justify-content: space-between;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 
 .section-1-about {
@@ -700,11 +605,7 @@ nav a {
   font-weight: bold;
   text-align: left;
   font-size: 40px;
-<<<<<<< HEAD
-  padding: 250px 0 0 50px;
-=======
   padding: 180px 0 0 50px;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 
 .about-me-text {
@@ -733,8 +634,6 @@ nav a {
   border-radius: inherit;
 }
 
-<<<<<<< HEAD
-=======
 .connect-button-about-2 {
   font-family: "Lato", sans-serif;
   color: rgba(198, 211, 222, 1);
@@ -757,7 +656,6 @@ nav a {
   justify-content: center;
 }
 
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 .section-3-about {
   height: 200px;
 }
@@ -775,33 +673,6 @@ nav a {
   height: 300px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-  .header-container.row,
-  .section-1.row,
-  .section-1b.row,
-  .section-2.row,
-  .section-3.row,
-  .section-4.row,
-  .section-5.row,
-  .section-6.row,
-  .section-7.row {
-    flex: shrink;
-    flex-direction: column;
-  }
-
-  .bookpicture {
-    flex-shrink: 1;
-    width: 500px;
-    min-height: 300;
-  }
-  .about-me {
-    flex-shrink: 1;
-    margin: 0;
-  }
-  .about-me-text {
-    width: 100%;
-=======
 /* ---------media queries of about page --------------- */
 
 @media screen and (max-width: 1090px) {
@@ -877,7 +748,6 @@ nav a {
     font-weight: 300;
     font-size: 13px;
     text-align: justify;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
   }
 }
 
@@ -981,16 +851,6 @@ textarea {
 .modal--hidden {
   display: none;
 }
-<<<<<<< HEAD
-
-/* ----------------WORK PAGE---------------- */
-.welcome-section-work {
-  width: 700px;
-  font-family: "Ibarra Real Nova", serif;
-  color: rgba(40, 44, 48, 1);
-  font-weight: bold;
-  font-size: 25px;
-=======
 /* ---------media queries for work page --------------- */
 
 @media screen and (max-width: 920px) {
@@ -1014,16 +874,11 @@ textarea {
   font-size: 20px;
   text-align: center;
   padding-right: 20px;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 
 .section-1-work {
   justify-content: center;
-<<<<<<< HEAD
-  height: 300px;
-=======
   height: 500px;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 
 .intro-text-work {
@@ -1031,10 +886,6 @@ textarea {
   line-height: 1.8;
   letter-spacing: 0;
   font-weight: 300;
-<<<<<<< HEAD
-  font-size: 20px;
-  text-align: center;
-=======
   font-size: 18px;
   text-align: justify;
   justify-content: center;
@@ -1057,14 +908,10 @@ textarea {
   font-weight: 300;
   font-size: 18px;
   text-align: justify;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
   justify-content: center;
 }
 
 .section-1b-work {
-<<<<<<< HEAD
-  height: 300px;
-=======
   height: 400px;
 }
 
@@ -1080,7 +927,6 @@ textarea {
   text-align: center;
 
   font-weight: bold;
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 }
 .section-2-work {
   height: 500px;
@@ -1089,12 +935,9 @@ textarea {
 .section-3-work {
   height: 200px;
 }
-<<<<<<< HEAD
-=======
 .section-4-work {
   height: 300px;
 }
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
 /* ----------carousel-------- */
 
 .carousel {
@@ -1175,8 +1018,6 @@ textarea {
 .is-hidden {
   display: none;
 }
-<<<<<<< HEAD
-=======
 /* ---------media queries for work page --------------- */
 
 @media screen and (max-width: 1090px) {
@@ -1277,4 +1118,3 @@ textarea {
     height: 700px;
   }
 }
->>>>>>> 60fdc6a345e99bf093fd913e4022627dd373ab5a
