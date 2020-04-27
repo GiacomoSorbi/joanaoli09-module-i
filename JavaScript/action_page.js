@@ -22,10 +22,10 @@ function closeMe() {
   document.querySelector(".modal").style.display = "none";
 }
 
-document.querySelector("#open-form").addEventListener("submit", event => {
+document.querySelector("#show-modal").addEventListener("submit", event => {
   event.preventDefault();
   toggleModal();
-  var formData = new FormData(document.querySelector("#open-form"));
+  var formData = new FormData(document.querySelector("#show-modal"));
   console.log(
     "Name:" + formData.get("name"),
     "Email:" + formData.get("email"),
