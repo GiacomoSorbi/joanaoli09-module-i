@@ -87,22 +87,6 @@ nav a {
   height: 100%;
 }
 
-/* ------- 
-.containers {
-  width: 200px;
-  margin: 10px;
-}
-/* ------- 
-.wrapper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-}
---------- */
-
 /* ------- SECTION 1 --------- */
 
 .welcome-section {
@@ -170,15 +154,6 @@ nav a {
   width: 700px;
 }
 
-/* ------- 
-.section-2-text {
-  font-family: "Lato", sans-serif;
-  padding-bottom: 50px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
- --------- */
-
 .work-images {
   justify-content: space-around;
   padding-top: 50px;
@@ -210,14 +185,13 @@ nav a {
   letter-spacing: 0.15em;
   text-align: center;
   justify-content: center;
-  transform: rotate(90deg);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
-  padding-left: 400px;
+  padding-top: 150px;
 }
 
 .services {
-  padding-top: 300px;
+  padding-top: 115px;
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -333,10 +307,9 @@ nav a {
   letter-spacing: 0.15em;
   text-align: center;
   justify-content: center;
-  transform: rotate(90deg);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
-  padding-left: 200px;
+  padding-top: 80px;
 }
 
 .work-together {
@@ -347,7 +320,7 @@ nav a {
   text-align: center;
   justify-content: center;
   font-size: 40px;
-  padding-top: 180px;
+  padding-top: 85px;
 }
 
 .connect-text {
@@ -527,17 +500,6 @@ nav a {
     background-color: white;
     height: 1000px;
   }
-
-  .menu-footer ul {
-    display: flex;
-    align-items: center;
-  }
-
-  .menu-footer li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
 }
 @media screen and (max-width: 695px) {
   .second-line.row {
@@ -617,17 +579,17 @@ nav a {
   font-weight: bold;
   text-align: left;
   font-size: 40px;
-  padding: 180px 0 0 50px;
+  padding: 130px 0 0 50px;
 }
 
 .about-me-text {
-  width: 400px;
+  width: 450px;
   padding-left: 50px;
   font-family: "Lato", sans-serif;
   line-height: 1.8;
   letter-spacing: 0;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .connect-button-about {
@@ -863,7 +825,7 @@ textarea {
 .modal--hidden {
   display: none;
 }
-/* ---------media queries for work page --------------- */
+/* ---------media queries for contact page --------------- */
 
 @media screen and (max-width: 920px) {
   .contact-picture {
