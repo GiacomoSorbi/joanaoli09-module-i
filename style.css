@@ -513,12 +513,15 @@ nav a {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .section-1{
+    padding-bottom: 50px;
+  }
   .section-4 {
     background-color: white;
     height: 1100px;
   }
   .intro-text {
-    font-size: 25px;
+    font-size: 22px;
   }
   .services-text{
     font-size: 20px;
@@ -829,7 +832,7 @@ textarea {
     display: none;
   }
   .intro-text{
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
