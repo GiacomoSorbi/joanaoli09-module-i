@@ -327,7 +327,7 @@ nav a {
 .connect-text {
   font-family: "Lato", sans-serif;
   color: rgba(40, 44, 48, 1);
-  font-size: 14px;
+  font-size: 16px;
   padding: 30px 0 20px 0;
   text-align: center;
   line-height: 1.4;
@@ -511,35 +511,17 @@ nav a {
   }
 }
 
-@media screen and (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    padding-top: 20px;
-  }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav li {
-    margin-left: 45px;
-    font-family: "Josefin Sans", sans-serif;
-  }
-
-  nav a {
-    color: #343335;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .section-4 {
     background-color: white;
     height: 1100px;
+  }
+  .intro-text {
+    font-size: 25px;
+  }
+  .services-text{
+    font-size: 20px;
   }
 }
 
@@ -584,13 +566,13 @@ nav a {
 }
 
 .about-me-text {
-  width: 400px;
+  width: 500px;
   padding-left: 50px;
   font-family: "Lato", sans-serif;
   line-height: 1.8;
   letter-spacing: 0;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .connect-button-about {
@@ -683,6 +665,7 @@ nav a {
   }
   .welcome-section {
     padding: 0;
+    
   }
   .welcome-section h1 {
     font-size: 45px;
@@ -693,6 +676,7 @@ nav a {
   .bookpicture {
     display: none;
   }
+  
   .about-me {
     display: flex;
     justify-content: center;
@@ -706,6 +690,11 @@ nav a {
     flex-direction: column;
     align-items: center;
   }
+
+.intro-text{
+  text-align: justify;
+ 
+}
   .about-me-title {
     font-family: "Ibarra Real Nova", serif;
     align-items: center;
@@ -716,13 +705,14 @@ nav a {
   }
 
   .about-me-text {
-    width: 400px;
+    width: 500px;
     font-family: "Lato", sans-serif;
     line-height: 1.8;
     letter-spacing: 0;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 15px;
     text-align: justify;
+   
   }
 }
 
@@ -837,6 +827,9 @@ textarea {
 @media only screen and (max-width: 600px) {
   .contact-picture {
     display: none;
+  }
+  .intro-text{
+    font-size: 24px;
   }
 }
 
