@@ -16,4 +16,5 @@ document.querySelector("#submit").addEventListener("submit", event => {
     "Message:" + formData.get("message")
   );
   alert("Thank you for your message!");
+  closeMe()
 });
