@@ -514,6 +514,7 @@ nav a {
   nav {
     flex-direction: column;
     padding-top: 20px;
+   
   }
 
   nav ul {
@@ -539,6 +540,9 @@ nav a {
   .section-4 {
     background-color: white;
     height: 1100px;
+  }
+  .welcome-section h1{
+    text-align: center;
   }
   .section-1b{
     height: 750px;
