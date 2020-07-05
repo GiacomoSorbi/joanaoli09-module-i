@@ -326,7 +326,7 @@ nav a {
 .connect-text {
   font-family: "Lato", sans-serif;
   color: rgba(40, 44, 48, 1);
-  font-size: 14px;
+  font-size: 16px;
   padding: 30px 0 20px 0;
   text-align: center;
   line-height: 1.4;
@@ -540,6 +540,16 @@ nav a {
     background-color: white;
     height: 1100px;
   }
+  .section-1b{
+    height: 750px;
+    }
+  .viewportfolio-button{
+    text-align: center;
+   }
+  .section-4{
+    background-color: white;
+    height: 1000px;
+  }
 }
 
 /* ---------------- ABOUT PAGE---------------- */
@@ -715,13 +725,11 @@ nav a {
   }
 
   .about-me-text {
-    width: 400px;
-    font-family: "Lato", sans-serif;
-    line-height: 1.8;
-    letter-spacing: 0;
-    font-weight: 300;
-    font-size: 13px;
-    text-align: justify;
+    width: 500px;
+        font-size: 15px;
+        text-align: justify;
+        padding-left: 0;
+        padding: 0px 20px 0 20px;
   }
 }
 
@@ -831,11 +839,15 @@ textarea {
   .contact-picture {
     display: none;
   }
+  
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .contact-picture {
     display: none;
+  }
+  .intro-text{
+     font-size: 22px;
   }
 }
 
@@ -1090,5 +1102,8 @@ textarea {
   .section-1b-work {
     position: relative;
     height: 700px;
+  }
+  .intro-text-work{
+    font-size: 20px;
   }
 }
