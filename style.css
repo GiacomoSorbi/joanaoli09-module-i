@@ -544,11 +544,10 @@ nav a {
     height: 750px;
     }
   .viewportfolio-button{
-    text-align: center;
-   }
+    text-align: center;
+  }
   .section-4{
-    background-color: white;
-    height: 1000px;
+    height: 1000px;
   }
 }
 
@@ -726,10 +725,10 @@ nav a {
 
   .about-me-text {
     width: 500px;
-        font-size: 15px;
-        text-align: justify;
-        padding-left: 0;
-        padding: 0px 20px 0 20px;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 0;
+    padding: 0px 20px 0 20px;
   }
 }
 
@@ -847,7 +846,7 @@ textarea {
     display: none;
   }
   .intro-text{
-     font-size: 22px;
+    font-size: 22px;
   }
 }
 
